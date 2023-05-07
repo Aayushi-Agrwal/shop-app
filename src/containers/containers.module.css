@@ -1,0 +1,56 @@
+/* Header */
+
+.headerMain{
+    position: fixed;
+    z-index: 100;
+    height: 10vh;
+    width: 100vw;
+    background-color: #FFB9B9; 
+}
+
+.header{
+    height: 100%;
+    margin: 0 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.websiteTitle{
+    color: white;
+    font-size: 2rem;
+    font-family: 'EB Garamond', serif;
+}
+
+.categories{
+    display: flex;
+    gap: 3vw;
+}
+
+
+
+/* ShopProductPage */
+
+.shopProduct{
+    overflow-x: hidden;
+    position: absolute;
+    top: 10vh;
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+}
+
+.productImg{
+    width: 50vw;
+    height: 90vh;
+}
+
+::-webkit-scrollbar {display:none;}
+
+.productDetails{
+    color: #433751;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    margin: 5vh 8vw;
+}
